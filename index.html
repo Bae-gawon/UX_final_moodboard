@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	body{background: black;}
+	section{width: 1200px; margin: auto; position: relative;}
+	img{width: 100%; position: absolute;}
+	.height1{height: 1500px}
+	.height2{height: 2860px}
+	#city{position: fixed; bottom: -100px; right: 0px; width: 100%;}
+	#back_moon{top: 0px; width: 100%; opacity: 35%;}
+	#moon{top: 50px; width: 30%;}
+	#earth{ top: 300px; right: -100px; width: 100%;}
+	#space_man{left:0px; top: 500px; width: 10%}
+	#ice{left: 0px;}
+	#human{width: 30%; right: 0px; animation: rr 3s infinite linear;}
+	#man{top: 1300px;}
+	#man1{width: 30%; left:320px; top: 350px;}
+	#woman{width: 40%; top: 1550px; left: 600px}
+	@keyframes rr{ to{ transform:rotate(360deg); } }
+
+</style>
+<body>
+	
+<section class="height1">
+	<img src="back.jpg" id="back_moon">
+	<img src="moon.jpg" id="moon">
+	<img src="earth.png" id="earth">
+	<img src="space_man.png" id="space_man">
+</section>
+<img src="ice.png" id="ice">
+<section class="height2">
+	<img src="man1.png" id="man1">
+	<img src="3d.png" id="human">
+	<img src="man.png" id="man">
+	<img src="woman.png" id="woman">
+</section>
+
+<section>
+<img src="city.png" id="city">
+</section>
+
+
+</body>
+</html>
